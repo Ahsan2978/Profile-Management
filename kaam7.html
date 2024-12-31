@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Management</title>
+  <link rel="stylesheet" href="style7.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Abu Hammad</h2>
+      <nav>
+        <ul>
+          <li><a href="#">Dashboard</a></li>
+          <li class="active"><a href="#">Users</a></li>
+          <li><a href="#">Orders</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Profile</a></li>
+        </ul>
+      </nav>
+    </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="profile-container">
+        <!-- Profile Details -->
+        <section class="profile-details">
+          <h2>Profile Details</h2>
+          <div class="profile-card">
+            <div class="profile-picture">
+              <img src="https://via.placeholder.com/80" alt="Profile">
+            </div>
+            <form>
+              <label>Name</label>
+              <input type="text" value="#001" disabled>
+
+              <label>Username</label>
+              <input type="text" value="John Doe" disabled>
+
+              <label>Email</label>
+              <input type="text" value="$100" disabled>
+
+              <label>Status</label>
+              <select disabled>
+                <option>Pending</option>
+              </select>
+
+              <label>Notes</label>
+              <textarea disabled>Add notes about this order...</textarea>
+            </form>
+          </div>
+        </section>
+
+        <!-- Update Profile -->
+        <section class="update-profile">
+          <h2>Update Profile</h2>
+          <form>
+            <label>Order ID</label>
+            <input type="text" value="#001" disabled>
+
+            <label>Customer Name</label>
+            <input type="text" value="John Doe">
+
+            <label>Total</label>
+            <input type="text" value="$100">
+
+            <label>Status</label>
+            <select>
+              <option>Pending</option>
+              <option>Completed</option>
+            </select>
+
+            <label>Notes</label>
+            <textarea>Add notes about this order...</textarea>
+
+            <div class="buttons">
+              <button type="submit" class="save">Save Changes</button>
+              <button type="button" class="cancel">Cancel</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
